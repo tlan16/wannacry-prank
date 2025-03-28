@@ -1,27 +1,13 @@
-# 模仿Wanna Cry的页面
+# WannaCry Simulation
 
-<http://www.eeyes.net/wannacry/>
+> [!NOTE]
+> This is _NOT_ a real ransomware. It is a prank webpage that simulates the WannaCry ransomware.
 
-* 2016-05-12 勒索病毒爆发
-* 2016-05-15 为跟风，立项，然后开工
-* 2016-05-16 基本完成并上线
+Demo: https://tlan16.github.io/wannacry-prank/
+
+You can easily use it as a screensaver using [WebViewScreenSaver](https://github.com/liquidx/webviewscreensaver).
 
 ## CONTRIBUTORS
 
-Ganlv <https://github.com/ganlvtech>
-
-## LICENSE
-
-    The MIT License (MIT)
-
-    Copyright (c) 2017 eeyes.net
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in
-    all copies or substantial portions of the Software.
+1. Ganlv <https://github.com/ganlvtech>
+2. Frank Lan <mailto:franklan118@gmail.com>
