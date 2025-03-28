@@ -61,7 +61,6 @@ body {
 }
 
 .desktop-icon {
-    position: absolute;
 }
 
 .desktop-program {
@@ -311,4 +310,8 @@ footer {
 
 footer a {
     color: #c99;
+}
+
+.desktop-status-bar {
+    background-color: #444639;
 }
