@@ -74,7 +74,10 @@ function getCookie(name) {
     if (parts.length == 2) return parts.pop().split(";").shift();
 }
 var wanadecryptorStartTime = getCookie('wanadecryptor_start_time');
-if (wanadecryptorStartTime) {
+var wanadecryptorStartTime_Date = new Date(wanadecryptorStartTime);
+var gap = Math.abs(Date.now() - wanadecryptorStartTime_Date.getTime());
+var gap_threshold = 3 * 24 * 60 * 60 * 1000; // 3 days in milliseconds
+if (wanadecryptorStartTime && gap < gap_threshold) {
     wanadecryptorStartTime = new Date(wanadecryptorStartTime);
 } else {
     wanadecryptorStartTime = new Date();
