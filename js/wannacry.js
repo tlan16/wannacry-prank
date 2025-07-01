@@ -76,7 +76,7 @@ const getCookie = (name) => {
 let wanadecryptorStartTime = getCookie('wanadecryptor_start_time');
 const wanadecryptorStartTime_Date = new Date(wanadecryptorStartTime);
 const gap = Math.abs(Date.now() - wanadecryptorStartTime_Date.getTime());
-const gap_threshold = 3 * 24 * 60 * 60 * 1000; // 3 days in milliseconds
+const gap_threshold = 1 * 24 * 60 * 60 * 1000; // 1 days in milliseconds
 if (wanadecryptorStartTime && gap < gap_threshold) {
     wanadecryptorStartTime = new Date(wanadecryptorStartTime);
 } else {
